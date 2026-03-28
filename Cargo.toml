@@ -11,3 +11,8 @@ repository = "https://github.com/verdiwm/waynova"
 include = ["src/**/*.rs", "README.md", "LICENSE"]
 
 [dependencies]
+futures-core = "0.3.32"
+futures-sink = "0.3.32"
+waynest = "0.2.0-rc1"
+waynest-client = "0.2.0-rc1"
+waynest-protocols = { version = "0.2.0-rc1", features = ["client"] }
